@@ -1,0 +1,268 @@
+\section{Business Strategy}
+\label{sect:business strategy}
+\vspace{-10pt}
+
+\subsection{Location TOPSIS and AHP analysis}
+
+\begin{table}[H]
+\label{Location TOPSIS and AHP Analysis}
+\centering
+\caption{Plant location decision based on TOPSIS and AHP analyses}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+               \textbf{Variable}                  & \textbf{Weight} & \textbf{Egypt} & \textbf{Spain}   & \textbf{UK} & \textbf{Turkey} & \textbf{Brazil} \\ \hline
+Raw material   cost    & 0.04 & 10    & \textbf{11}    & 13    & 9      & 14    \\ \hline
+Labour   cost          & 0.05 & 13.38 & \textbf{29.64} & 29.78 & 14.13  & 16.32 \\ \hline
+Cost of   land         & 0.03 & 831   & \textbf{6173}  & 26262 & 5680   & 4833  \\ \hline
+Import/export         & 0.08 & 1.52  & \textbf{-4.09} & -1.84 & -11.75 & 0.57  \\ \hline
+Domestic   demand                & 0.25               & 781100         & \textbf{3226500} & 2151000     & 2000000         & 208000            \\ \hline
+Competitors            & 0.2  & 0     & \textbf{950}   & 450   & 2000   & 0     \\ \hline
+Government support           & 0.08 & 0     & \textbf{5.02}  & 5.02  & 0      & 0     \\ \hline
+Potential   exports    & 0.08 & 2.5   & \textbf{3}     & 1     & 3.5    & 0     \\ \hline
+Industrial electricity cost & 0.13               & 0.073          & \textbf{0.13}    & 0.15        & 0.095           & 0.122           \\ \hline
+  Soda ash   market CAGR & 0.06 & 2.5   & \textbf{2}     & 2     & 2      & 2.5   \\ \hline
+                       &      &       & \textbf{}      &       &        &       \\ \hline
+TOPSIS rank            & -    & 3     & \textbf{1}     & 2     & 5      & 4     \\ \hline
+AHP rank               & -    & 2     & \textbf{1}     & 4     & 3      & 5     \\ \hline
+\end{tabular}
+\end{table}
+
+\subsection{Market Analysis}
+\label{Market sizing}
+\vspace{-20pt}
+\begin{table}[H]
+\centering
+\caption{Spanish market sizing of Na$_2$CO$_3$}
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Market sizing of Na$_2$CO$_3$ in Spain [Mtonne]}                                &       \\ \hline
+European Union total flat glass production
+& 11   \\ \hline
+Proportion of flat glass produced by Spain in the EU \citep{ma2}               & 9\%                  \\ \hline
+Flat glass produced in Spain per year                            & 0.99          \\ \hline
+  Worldwide proportion of glass that is manufactured as flat glass \citep{ma3}   & 16\%                 \\ \hline
+Total glass production in Spain                                  & 6.19       \\ \hline
+Proportion of glass that is soda-ash \citep{ma4}                               & 15\%                 \\ \hline
+Domestic demand in Spain for Soda ash from glass industry        & 0.93     \\ \hline
+Proportion of soda-ash that is used for glass manufacturing   \citep{ma5}      & 53\%                \\ \hline
+Total demand for Soda-ash in Spain                               & 1.75         \\ \hline
+\end{tabular}
+\end{table}
+
+\subsection{Capital Cost Estimation}
+\begin{equation}
+    \frac{Cost\;of \;old \;plant \;in\; 2007}{Capacity \;of\; old \;plant \;in\; 2007}=\frac{Cost \;estimation \;of \;new\; plant\; in\; 2007}{Capacity \;of \;new \;plant \;in \;2007}
+    \label{CAPEX1}
+\end{equation}
+It is assumed that the relationship between capital cost of plant and the capacity of plant is linear so that an estimation of a new plant in the same period of time can be obtained. 
+
+
+\begin{table}[H]
+\centering
+\caption{Estimated capital cost in 2007 }
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Variable}                      & \textbf{Value}             & \textbf{Method}     \\ \hline
+  Old plant   cost:capacity ratio - 2007 & \$672 / tonne of soda   ash & Research        \\ \hline
+New plant   capacity - 2007            & 1 Mtonne                   & Process requirement   \\ \hline
+Estimated new   plant cost - 2007      & \$672000000                 & calculation using (1)         \\ \hline
+\end{tabular}
+\end{table}
+
+\noindent After calculating the capital cost of new plant in 2007, the investor would like to know the prediction of capital cost when the plant is actually built. In this case, we are assuming the construction will last for 4 years starting from 2021. In order to estimate a reasonable capital cost in 2024, both inflation and cost fluctuation during the construction period should be taken into account. The equations used are listed below.
+
+\begin{equation}
+    {CAPEX}_{New plant, 2024} = {CAPEX}_{new plant, 2007}\times{13\;yr.\;infl.} \times {Constr.\; cost\; increase} 
+     \label{CAPEX2}
+\end{equation}
+
+
+\begin{equation}
+    Inflation\;in\;13\;years=\frac{Price\;index\;of\;2020}{Price\;index\;of\;2007}
+    \label{inlation}
+\end{equation}
+
+\begin{equation}
+Cost\;increase\;during\;4\;construction\;years=(1+price\;gradient)^4
+\label{cost_increase}
+\end{equation}
+
+
+\begin{table}[H]
+\centering
+\caption{new plant capital cost calculation}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Variable}                           & \textbf{Value}                    & \textbf{Method}      \\ \hline
+New plant capital cost - 2024                & \$750 million                      & Calculation using (2) \\ \hline
+cost of new plant  in 2007 & {\color[HTML]{444444} \$670 million} & calculation using (1)    \\ \hline
+inflation in 13 years                        & 1.1348                             & Calculation using (3)\\ \hline
+Price index of 2020                          & 596.2                              & Research    \\ \hline
+Price index of 2007                          & 525.4                              & Research    \\ \hline
+Cost increase during 4 construction years    & 0.9773                             & Calculation using (4)\\ \hline
+Price gradient                               & -0.57\%                            & Research    \\ \hline
+\end{tabular}
+\end{table}
+
+
+\subsection{WACC Calculation}
+
+The weighted average cost of capital (WACC) is a formula that calculates how much interest a business owes on each dollar it borrows, a method used by analysts to determine the value of an investment. A firm's WACC is a crucial figure in discounted cash flow (DCF) analysis. WACC values are frequently used by company management as a criterion to decide which initiatives to pursue. Presently, calculated WACC values via  Eq.\ref{eq:WACC1}-\ref{eq:WACC3} will be used to measure viability of the proposed plant and related investment.
+
+\begin{equation}
+{WACC}=(\frac{E}{V}\times\;Re)+(\frac{D}{V}\times\;Rd\times\;(1-T_c)) \label{eq:WACC1}
+\end{equation}
+
+\begin{table}[H]
+\centering
+\caption{Parameters for WACC calculation}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Symbol} & \textbf{Variable}               & \textbf{Value} & \textbf{Method} \\ \hline
+WACC            & Weight average cost of capital  & 2.38\%         & Calculation using (5)     \\ \hline
+$Re$              & Cost of equity                  & 4.57\%         & calculation using (6)    \\ \hline
+$Rd$              & Cost of debt                    & 1.23\%         & using bank lending rates \citep{wacc4}       \\ \hline
+$E$               & Market value of firm’s equity   & \$298 million  & Calculation using (8) and $D/E$ \\ \hline
+$D$               & Market value of firm’s debt     & \$447 million  & Calculation  using (8) and $D/E$    \\ \hline
+$V$               & Total value of firm’s financing & \$745 million  & using estimated capital cost    \\ \hline
+$T_c$              & Corporate tax rate              & 25\%           & Research        \\ \hline
+\end{tabular}
+\end{table}
+
+
+\begin{equation}
+Re=Rf+Rl\times\;(Rm-Rf) \label{eq:WACC2}
+\end{equation}
+\begin{equation}
+Bl=Bu\times \;(1+(1+T_c)\times\;\frac{D}{E}) \label{eq:WACC3}
+\end{equation}
+\begin{equation}
+D+E=V \label{eq:WACC4}
+\end{equation}
+
+\begin{table}[H]
+\caption{Market Parameters}
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Symbol} & \textbf{Variable}        & \textbf{Value} & \textbf{Method} \\ \hline
+$Rf$              & Risk-free rate of return & 0.07\%          & Research \citep{wacc}      \\ \hline
+$Bl$              & Levered Beta of asset    & 0.75           & Research\citep{wacc3}        \\ \hline
+$Bu$              & Unlevered Beta of asset  & 0.26         & Calculation using Eq.(7)    \\ \hline
+$Rm$              & Expected   market return & 6.07\%          & Calculation from equity risk premium \\ \hline
+$Rm-Rf$           & Equity risk premium      & 6\%             & Research \citep{wacc2}        \\ \hline
+\end{tabular}
+\end{table}
+
+\subsection{Yearly cost and profit}
+
+\begin{table}[H]
+\centering
+
+\caption{Annualised preliminary raw material, utility and product cash flows}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Material \& Utilities} &\textbf{Consumption/Production}&
+  \textbf{Unit price }&\textbf{\$ Cost/Profit}  \\ \hline
+CaCO$_3$                &                                                -940000tonnes &                                      \$           10.00 /tonne& \$                                                  -9,400,000  \\ \hline
+NaCl & -1100000tonnes& \$                                                 10.00 /tonne&
+                                   \$               -11,000,000  \\ \hline
+H$_2$O                  & -2600000tonne& \$                                                   2.00 /tonnes &                                               \$  -5,200,000  \\\hline
+
+Na$_2$CO$_3$ & 1000000tonnes &
+  \$                                               350.00 /ton &                                                  \$ 350,000,000 
+\\ \hline
+CaCl$_2$ & 250000tonnes &
+  \$                                                 56.00 /ton  &                                                 \$  14,000,000 \\ \hline
+
+Natural gas         & -1600000MWh & \$                                                 40.00 /MWh   &                                                   \$-64,000,000   \\ \hline
+Electricity  & -120000 MWh & \$                                               140.00 /MWh    &                                                   \$-16,800,000    \\ \hline
+-&-&\textbf{Gross profit}&  \$ 257,600,000\\ \hline
+\end{tabular}
+\end{table}
+
+
+\subsection{Assumptions}
+The following assumptions were made in order to smooth the economical calculations:
+\begin{enumerate}
+  \item Operating lifetime of 40 years and zero scrap-value at end of life. 
+  \item Debt to equity ratio of 1.5, based on a start-up company not desiring to secure a high loan proportion due to risk of failure and significant interest rates. 
+  \item Ignoring tax credits and governmental support for a CCS process. 
+  \item A debt interest rate of 8.5\% over a loan term of 20 years. 
+  \item Spanish income tax rate at 25\%. 
+  \item Plant operation for 24 hours a day for 330 days a year, allowing for maintenance requirements. 
+  \item Discount rate at 6\% based on typical Spanish chemical industry investments. 
+  \item Ignoring inflation effects on energy, raw material and product prices. 
+  \item Assuming sales from a free on board origin. 
+\end{enumerate}
+\vspace{-10pt}
+
+\subsection{Calculated KPIs}
+\label{Calculated KPIs sect}
+
+\begin{table}[H]
+\centering
+\caption{KPIs obtained from discounted cash flow calculations     }
+\begin{tabular}{|c|c|lll}
+\cline{1-2}
+\textbf{KPI} & \textbf{Value}       \\\cline{1-2}
+Net Present Value                  & \$1,100 million &  &  &  \\ \cline{1-2}
+Discounted Payback Period          & 6 years         &  &  &  \\ \cline{1-2}
+Internal Rate of Return            & 21\%            &  &  &  \\ \cline{1-2}
+Weighted Average Cost of   Capital & 6.1\%           &  &  &  \\ \cline{1-2}
+\end{tabular}
+\label{tab:NPV}
+\end{table}
+
+\subsection{PESTLE analysis}
+
+\subsubsection{Political}
+The European Union is looking to decarbonise its economy through finding alternative process pathways that reduce or remove carbon emissions. An extensive carbon capture and storage (CCS) pipeline grid is being installed across EU countries to increase the CCS uptake by industry. The process introduced reduces carbon emissions per tonne of product by a factor of 16.5 compared to current processes and provides a pure CO2 stream ready for sequestration. The project will likely receive funding from the EU innovation fund and is eligible for tax credits from the Spanish government for innovative technology.
+
+\subsubsection{Economic}
+There is large demand for soda ash in Europe and North Africa. With competitors employing out-dated technologies and soda ash plants closing down in the last decade, there is a gap in the market. Solution A Ltd. will be less sensitive to carbon taxes due to the innovative DSR reactor allowing efficient carbon capture and sequestration.
+
+\subsubsection{Social}
+Cultural trends are turning towards low-carbon processes, with the company employing members of the local community and supplying low-carbon soda ash, Solution A Ltd. will be an attractive societal business. Soda ash provides the raw materials for glass, chemical and soap manufacture which are all staple commodities.
+
+\subsubsection{Technological}
+The DSR reactor is a pioneering technology that is likely to be employed extensively in other industries such as the cement and steel sectors to significantly reduce and efficiently sequester carbon emissions. Full-scale deployment of the technology will enable take-up of the DSR by other chemical companies to reduce carbon emissions by potential orders of magnitude. Furthermore, the use of CaO in place of NH$_3$ is a novel process that has not yet been utilised on scale, and has the potential to revolutionise commercial solvay processes.
+
+\subsubsection{Legal}
+Relevant national and local laws must be accounted for including zoning laws, taxation, contractual obligations and rules for construction practices. Additionally, it is important to follow international engineering safety guidelines to ensure plant safety. 
+
+\subsubsection{Environmental}
+Carbon emissions are released by the process, though significantly less compared to other soda ash production processes. Wastewater streams will be treated on-site and emitted within safe levels. Detailed environmental considerations can be found in Appendix \ref{EnvironSection}.
+
+\subsection{Porters 5 forces analysis}
+
+\subsubsection{Competition within industry}
+
+Europe, including all of Russia and Turkey, supplies approximately 25\% of the world’s demand for soda ash. The market is populated by a few key players: Solvay, Tata Chemicals and the CIECH group. The major competiton is the Solvay plant in Torrelavega, Spain, though this is on the north coast whilst the Solution A Ltd. site is on the south east coast. There are no soda ash plants in North Africa after the Solvay plant in Egypt closed in 2016. Entering the market provides customers with more choice and potential lower logistic costs.
+\vspace{-10pt}
+\subsubsection{Threat of entrants}
+\vspace{-10pt}
+The high capital cost of soda ash plants results in new factories seldom being constructed. Typical European plants are from the 19th century and are revamped / updated with new technology every 40 years to maintain output. New entrants are unlikely to enter the industry.
+\vspace{-10pt}
+\subsubsection{Bargaining power of suppliers}
+\vspace{-10pt}
+The main raw materials of sodium carbonate and raw brine have deposits situated next to the plant location. These are stable commodities with very low price volatility and long-term contracts are typically negotiated with suppliers. Natural gas and electricity are important utilities, the profitability is sensitive to these commodity prices. European gas prices have been volatile over the last year due to bad international relations between Russia and the EU, resource prices have recently stabilised though at a significantly higher price relative to before the dispute.
+
+\subsubsection{Bargaining power of customers}
+
+Customers will have fixed and locked contracts, therefore prices are non-negotiable after contract signature. Though, consideration of competition and market size will provide the customer with resources to negotiate lower product prices.
+
+\subsubsection{Threat of substitutes}
+
+Potential process substitutes are feasible for low-carbon manufacturing, though the Calix DSR reactor is the only proven technology at pilot scale and is currently being implemented at industrial cement manufacturing sites. Threat of product substitution is low due to the low price of soda ash and proven effective properties in glass manufacturing as well as chemical and soap/detergent manufacture.
+
+
+
+
+
+
+
+
+
+
+
